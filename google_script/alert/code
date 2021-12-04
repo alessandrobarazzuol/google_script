@@ -1,1 +1,6 @@
-//script
+function msgbox() {
+ var html = HtmlService.createHtmlOutputFromFile('index')
+      .setSandboxMode(HtmlService.SandboxMode.IFRAME);
+  SpreadsheetApp.getUi() 
+      .showModalDialog(html, 'Titolo');
+}
