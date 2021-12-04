@@ -1,6 +1,14 @@
 {
   "timeZone": "Europe/Rome",
   "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "Riempi",
+        "version": "0",
+        "libraryId": "1coxZNVGlmGqJBv9h7_FCfT3Cj3A5Z2N71tzrn6OWD3xW4aw_CsrUWkq1",
+        "developmentMode": true
+      }
+    ]
   },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8"
